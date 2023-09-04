@@ -1,3 +1,4 @@
 # temperatureConvertor
 Temperature Convertor Using Html CSS JavaScript
-![image](https://github.com/gauravsane/temperatureConvertor/assets/68939352/f47dc079-38ce-4618-aa50-1b217d0c733f)
+![image](https://github.com/gauravsane/temperatureConvertor/assets/68939352/84f155de-045f-4cfa-98d3-1fc65be08312)
+
