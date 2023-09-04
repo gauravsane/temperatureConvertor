@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="task1.css">
+  </head>
+  <body>
+    <div class="container">
+      <form id="calcTemp" onsubmit="calculateTemp(); return false">
+        <label for="temp">Enter temperature to convert</label>
+        <br />
+        <input type="number" name="temp" id="temp" value="0" />
+        <select name="temp_diff" id="temp_diff">
+          <option value="cel">&#176;Celcius</option>
+          <option value="fah">&#176;Fahrenheit</option>
+        </select>
+        <br />
+        <input type="submit" name="temp" id="submit" />
+        <input type="reset" name="temp" id="reset">
+        <br />
+        <span id="result"></span>
+      </form>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

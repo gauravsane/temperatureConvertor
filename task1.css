@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lilita One", cursive;
+  background-color: rgb(35, 255, 251);
+}
+.container {
+  margin-left: 30%;
+  margin-top: 15%;
+  box-sizing: border-box;
+  width: 650px;
+  height: 290px;
+  background-color: rgb(233, 81, 81);
+  padding: 30px;
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+form {
+  padding: 10px;
+  text-align: center;
+  font-family: "Lilita One", cursive;
+}
+form label{
+    color: gold;
+}
+form #temp {
+  width: 120px;
+  height: 35px;
+  font-size: 20px;
+  margin: 20px;
+  font-family: "Lilita One", cursive;
+  color: rgb(13, 201, 0);
+  background-color: rgb(15, 15, 15);
+}
+form #temp_diff{
+    width: 130px;
+    height: 35px;
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Lilita One", cursive;
+    color: rgb(13, 201, 0);
+  background-color: rgb(15, 15, 15);
+}
+form #submit{
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Lilita One", cursive;
+    background-color: rgb(145, 255, 135);
+    color: rgb(21, 29, 255);
+}
+form #reset{
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    margin: 20px;
+    font-family: "Lilita One", cursive;
+    background-color: rgb(250, 6, 6);
+    color: rgb(236, 236, 236);
+}
+
+input:active{
+    background-color: gray;
+    color: greenyellow;
+}
+
+form span{
+    color: rgb(65, 0, 230);
+}
+
+form #submit:hover{
+    box-shadow: 3px 3px 3px rgb(135, 255, 71);
+}
+
+form #reset:hover{
+    box-shadow: 3px 3px 3px rgb(235, 0, 0);
+}
