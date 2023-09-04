@@ -5,11 +5,14 @@
 
 body {
   font-family: "Lilita One", cursive;
-  background-color: rgb(35, 255, 251);
+  /* background-color: rgb(35, 255, 251); */
+  background: url(https://gifdb.com/images/featured/sky-6wlw4kdckyavun1n.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
   margin-left: 30%;
-  margin-top: 15%;
+  margin-top: 13%;
   box-sizing: border-box;
   width: 650px;
   height: 290px;
